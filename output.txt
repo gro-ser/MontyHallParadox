@@ -1,31 +1,31 @@
- 3 Doors / Method |   win count
-Open first door:         33,40%
-Open another door:       62,89%
+ 3 Doors:  Method |  win count
+Open first door:        33,35%
+Open another door:      63,06%
 
- 4 Doors / Method |   win count
-Open first door:         25,05%
-Open another door:       36,80%
+ 4 Doors:  Method |  win count
+Open first door:        24,91%
+Open another door:      36,77%
 
- 5 Doors / Method |   win count
-Open first door:         19,88%
-Open another door:       26,41%
+ 5 Doors:  Method |  win count
+Open first door:        20,06%
+Open another door:      26,40%
 
- 6 Doors / Method |   win count
-Open first door:         16,65%
-Open another door:       20,74%
+ 6 Doors:  Method |  win count
+Open first door:        16,62%
+Open another door:      20,65%
 
- 7 Doors / Method |   win count
-Open first door:         14,34%
-Open another door:       17,14%
+ 7 Doors:  Method |  win count
+Open first door:        14,23%
+Open another door:      17,16%
 
- 8 Doors / Method |   win count
-Open first door:         12,56%
-Open another door:       14,56%
+ 8 Doors:  Method |  win count
+Open first door:        12,44%
+Open another door:      14,54%
 
- 9 Doors / Method |   win count
-Open first door:         11,18%
-Open another door:       12,65%
+ 9 Doors:  Method |  win count
+Open first door:        11,12%
+Open another door:      12,65%
 
-10 Doors / Method |   win count
-Open first door:         10,01%
-Open another door:       11,28%
+10 Doors:  Method |  win count
+Open first door:         9,99%
+Open another door:      11,25%
