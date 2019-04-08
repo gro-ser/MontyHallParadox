@@ -44,7 +44,7 @@ public class MontyHallParadox
     {
         var game = new MontyHallParadox(MyDoorCount);
         Console.Write("{0}\nOpen first door:\t{1,7:P}\nOpen another door:\t{2,7:P}\n\n",
-            $"Method:\t\t number of wins // Count of doors:{MyDoorCount}",
+            $"{MyDoorCount,2} Doors / Method |   win count",
             test.Select(game.OpenAnotherDoor).Count(cmp) * 1f / TestsCount,
             test.Select(game.OpenFirsDoor).Count(cmp) * 1f / TestsCount);
     }
