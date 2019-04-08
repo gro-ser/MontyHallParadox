@@ -37,16 +37,16 @@ public class MontyHallParadox
         }
         return iswin();
     }
-    bool OpenFirsDoor(bool x) => game(true);
-    bool OpenAnotherDoor(bool x) => game(false);
-    
+    bool OpenFirsDoor(bool x) => game(false);
+    bool OpenAnotherDoor(bool x) => game(true);
+
     static void GameIteration(int MyDoorCount)
     {
         var game = new MontyHallParadox(MyDoorCount);
-        Console.Write("{0}\nOpen first door:\t{1,7:P}\nOpen another door:\t{2,7:P}\n\n",
-            $"{MyDoorCount,2} Doors / Method |   win count",
-            test.Select(game.OpenAnotherDoor).Count(cmp) * 1f / TestsCount,
-            test.Select(game.OpenFirsDoor).Count(cmp) * 1f / TestsCount);
+        Console.Write("{0,2}{1}\nOpen first door:\t{2:P}\nOpen another door:\t{3:P}\n\n",
+            MyDoorCount, " Doors:  Method |  win count",
+            test.Select(game.OpenFirsDoor).Count(cmp) * 1f / TestsCount,
+            test.Select(game.OpenAnotherDoor).Count(cmp) * 1f / TestsCount);
     }
     public static void Main()
     {
